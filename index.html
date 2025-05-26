@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yros Aguiar - DevOps | SRE | Cloud | DevEx</title>
+  <style>
+    :root {
+      --primary-color: #0a192f;
+      --secondary-color: #0077b6;
+      --background-light: #f5f5f5;
+      --background-dark: #0a192f;
+      --text-light: #fff;
+      --text-dark: #333;
+    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: var(--background-light); color: var(--text-dark); transition: all 0.3s ease-in-out; }
+    header, footer { background: var(--primary-color); color: var(--text-light); text-align: center; padding: 20px; animation: fadeInDown 1s ease-in-out; }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p, footer p { margin: 5px 0; font-size: 1em; }
+    section { padding: 20px; max-width: 900px; margin: auto; animation: fadeInUp 1s ease-in-out; }
+    h2 { color: var(--primary-color); border-bottom: 2px solid var(--primary-color); padding-bottom: 5px; animation: slideInLeft 1s ease-in-out; }
+    ul { list-style-type: square; padding-left: 20px; }
+    a { color: var(--secondary-color); text-decoration: none; cursor: pointer; }
+    button.theme-toggle, select.language-toggle { position: fixed; top: 20px; padding: 10px 20px; background: var(--secondary-color); color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 999; }
+    button.theme-toggle { right: 20px; }
+    select.language-toggle { left: 20px; }
+    .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); justify-content: center; align-items: center; animation: fadeInModal 0.5s forwards; }
+    .modal-content { background: white; padding: 20px; border-radius: 8px; max-width: 600px; text-align: center; transform: scale(0.8); opacity: 0; animation: zoomIn 0.5s forwards; }
+    .modal-content h3 { margin-top: 0; }
+    .modal-content button { background: var(--secondary-color); color: white; border: none; padding: 10px 20px; border-radius: 5px; margin-top: 10px; cursor: pointer; }
+    @keyframes fadeInDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes slideInLeft { from { opacity: 0; transform: translateX(-50px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes fadeInModal { from { background: rgba(0,0,0,0); } to { background: rgba(0,0,0,0.8); } }
+    @keyframes zoomIn { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+    @keyframes zoomOut { from { transform: scale(1); opacity: 1; } to { transform: scale(0.8); opacity: 0; } }
+  </style>
+</head>
+<body>
+  <button class="theme-toggle" onclick="toggleTheme()">🌙/☀️</button>
+  <select class="language-toggle" onchange="switchLanguage(this.value)">
+    <option value="pt">Português</option>
+    <option value="en">English</option>
+  </select>
+
+  <header>
+    <h1 id="name">Yros Aguiar</h1>
+    <p id="title">Staff SRE | DevOps | Cloud | Platform Engineer</p>
+    <p id="location">Florianópolis, SC, Brasil</p>
+    <p>Email: yrosaguiar@gmail.com | <a href="https://www.linkedin.com/in/yros-aguiar-6a893b32/">LinkedIn</a></p>
+  </header>
+
+  <section>
+    <h2 id="aboutTitle">Sobre Mim</h2>
+    <p id="aboutDesc">Sou um profissional de TI com mais de 18 anos de experiência, sendo 9 anos dedicados a operações SRE/DevOps e 11 anos em engenharia de software. Atualmente atuo como Staff SRE/DevOps/Platform Engineer na Collegia, com foco em Cloud, Kubernetes, GitOps, Observabilidade e Infraestrutura como Código (IaC). Apaixonado por automação, melhoria da experiência do desenvolvedor (DevEx) e por promover boas práticas na engenharia de software.</p>
+
+    <h2 id="experienceTitle">Experiência Profissional</h2>
+    <ul>
+      <li><strong>Staff SRE - Collegia</strong> (2024-2025): Kubernetes em Azure e GCP, Terraform, ArgoCD, Observabilidade, Resiliência e BCP/DRP.</li>
+      <li><strong>Senior DevOps/SRE - TotalPass Brasil</strong> (2024): GitOps com ArgoCD e Kubernetes, CI/CD, modernização de infraestrutura.</li>
+      <li><strong>Senior DevOps Engineer/SRE - Lumenalta (Clevertech)</strong> (2022-2023): AWS, Terraform, Datadog, DevSecOps.</li>
+      <li><strong>SRE Lead - Arcotech</strong> (2021-2022): GitOps com Crossplane, Prometheus, New Relic.</li>
+      <li><strong>SRE/DevOps - Pipefy</strong> (2019-2021): Kubernetes, ArgoCD, Terraform Cloud, Atlantis.</li>
+      <li><strong>SRE/Cloud Architect - Pixeon</strong> (2018-2019): AWS e Azure, Kubernetes, CI/CD.</li>
+      <li><strong>SRE/DevOps - 99</strong> (2018): Hybrid Cloud, Terraform, automação.</li>
+      <li><strong>DevOps/SRE - Geru</strong> (2017): AWS, Terraform, CircleCI, NewRelic.</li>
+      <li><strong>Cloud Architect/DevOps - HomeRefill</strong> (2015-2017): AWS, Google Cloud, Docker, Jenkins, Chef.</li>
+      <li><strong>AWS Solutions Architect - yros | AWS Solution Provider</strong> (2014-2016)</li>
+      <li><strong>Infrastructure Architect - Arizona</strong> (2014-2016)</li>
+      <li><strong>Infrastructure Specialist - Arizona</strong> (2013-2014)</li>
+      <li><strong>IT Coordinator - Graficos Burti</strong> (2012-2013)</li>
+      <li><strong>Senior Infrastructure Analyst - Graficos Burti</strong> (2011-2012)</li>
+      <li><strong>Support Analyst - Casa de Saúde Santa Marcelina</strong> (2008-2011)</li>
+    </ul>
+
+    <h2 id="skillsTitle">Skills</h2>
+    <ul>
+      <li>GitOps, Kubernetes (AKS, EKS, GKE), Terraform, ArgoCD, CI/CD, Cloud (AWS, GCP, Azure, OCI)</li>
+      <li>Monitoring: Prometheus, Grafana, Datadog, New Relic</li>
+      <li>AppSec, Security, IAM, VPC, CloudFormation, Docker, Linux, Networking, VPNs</li>
+      <li>Languages: Shell Scripting, Bash, YAML, Terraform HCL, Golang (básico)</li>
+    </ul>
+
+    <h2 id="certificationsTitle">Certificações</h2>
+    <ul>
+      <li>ArgoCD - GitOps Fundamentals (Codefresh)</li>
+      <li>AWS Professional (AWS Hub)</li>
+      <li>CCNP Routing e CCNP Switching (NETTS)</li>
+      <li>EF SET Certificate - B2 Upper Intermediate (EF English Live)</li>
+      <li>Datadog (2024)</li>
+      <li>Certified AppSec Practitioner (CAP) (2024)</li>
+      <li>New Relic Observability Practitioner Badge, Full Stack Observability, Foundations (2024)</li>
+      <li>AWS Certified Solutions Architect – Associate (2023)</li>
+      <li>GitOps Fundamentals (Codefresh, 2022)</li>
+      <li>DEPC - DevOps Essentials Professional Certificate (Certiprof, 2020)</li>
+      <li>HashiCorp Certified: Terraform Associate (2020)</li>
+      <li>CKA - Certified Kubernetes Administrator (2020)</li>
+      <li>CKAD - Certified Kubernetes Application Developer (2020)</li>
+      <li>AWS Certified Solutions Architect (2015)</li>
+      <li>ITIL (2013)</li>
+      <li>CCNA (2011)</li>
+      <li>DBCEX (DLink Sudamericana, 2010)</li>
+    </ul>
+
+    <h2 id="projectsTitle">Projetos</h2>
+    <ul>
+      <li><a onclick="openModal('GitOps Implementation', 'Automação de deploys com ArgoCD e Kubernetes')">GitOps Implementation</a></li>
+      <li><a onclick="openModal('Plataformas de Observabilidade', 'Projetos de monitoramento com Datadog, New Relic e Prometheus')">Plataformas de Observabilidade</a></li>
+      <li><a onclick="openModal('Automação de Pipelines', 'CI/CD com ArgoCD, GitHub Actions e Terraform')">Automação de Pipelines</a></li>
+      <li><a onclick="openModal('BCP/DRP Architectures', 'Planos de continuidade de negócio e recuperação de desastres')">BCP/DRP Architectures</a></li>
+      <li><a onclick="openModal('Cloud Migrations', 'Migrações de Kubernetes e aplicações para GCP, AKS e AWS')">Cloud Migrations</a></li>
+    </ul>
+  </section>
+
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <button onclick="closeModal()">Fechar</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Yros Aguiar - Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      const currentBg = getComputedStyle(body).getPropertyValue('--background-light');
+      if (body.style.background === currentBg || body.style.background === '') {
+        body.style.background = 'var(--background-dark)';
+        body.style.color = 'var(--text-light)';
+      } else {
+        body.style.background = 'var(--background-light)';
+        body.style.color = 'var(--text-dark)';
+      }
+    }
+
+    function switchLanguage(lang) {
+      const translations = {
+        pt: {
+          aboutTitle: 'Sobre Mim',
+          experienceTitle: 'Experiência Profissional',
+          skillsTitle: 'Skills',
+          certificationsTitle: 'Certificações',
+          projectsTitle: 'Projetos'
+        },
+        en: {
+          aboutTitle: 'About Me',
+          experienceTitle: 'Professional Experience',
+          skillsTitle: 'Skills',
+          certificationsTitle: 'Certifications',
+          projectsTitle: 'Projects'
+        }
+      };
+      const t = translations[lang];
+      for (const key in t) {
+        document.getElementById(key).innerText = t[key];
+      }
+    }
+
+    function openModal(title, desc) {
+      const modal = document.getElementById('projectModal');
+      const content = modal.querySelector('.modal-content');
+      content.style.animation = 'zoomIn 0.5s forwards';
+      document.getElementById('modalTitle').innerText = title;
+      document.getElementById('modalDesc').innerText = desc;
+      modal.style.display = 'flex';
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('projectModal');
+      const content = modal.querySelector('.modal-content');
+      content.style.animation = 'zoomOut 0.5s forwards';
+      setTimeout(() => {
+        modal.style.display = 'none';
+      }, 500);
+    }
+  </script>
+</body>
+</html>
