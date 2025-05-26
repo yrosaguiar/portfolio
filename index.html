@@ -20,6 +20,7 @@
     h2 { border-bottom: 2px solid var(--primary-color); padding-bottom: 5px; }
     ul { list-style-type: square; padding-left: 20px; }
     a { color: var(--secondary-color); text-decoration: none; cursor: pointer; }
+    a.external-link { color: var(--secondary-color); text-decoration: underline; }
     button.theme-toggle, select.language-toggle { position: fixed; top: 20px; padding: 10px 20px; background: var(--secondary-color); color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 999; }
     button.theme-toggle { right: 20px; }
     select.language-toggle { left: 20px; }
@@ -105,6 +106,17 @@
       <li><a onclick="openModal('BCP/DRP Architectures', 'Planos de continuidade de negócio e recuperação de desastres')">BCP/DRP Architectures</a></li>
       <li><a onclick="openModal('Cloud Migrations', 'Migrações de Kubernetes e aplicações para GCP, AKS e AWS')">Cloud Migrations</a></li>
     </ul>
+
+    <h2 id="publicationsTitle">Publicações</h2>
+    <ul>
+      <li><a class="external-link" href="https://medium.com/@yrosaguiar/from-zero-to-the-gitops-4a529da7ae2e" target="_blank">From Zero to the GitOps</a></li>
+      <li><a class="external-link" href="https://medium.com/@yrosaguiar/understanding-k8s-autoscale-123456789" target="_blank">Understanding k8s AutoScale</a></li>
+      <li><a class="external-link" href="https://medium.com/@yrosaguiar/10-steps-for-achieving-the-cka-certification-987654321" target="_blank">10 steps for achieving the CKA certification</a></li>
+      <li><a class="external-link" href="https://medium.com/@yrosaguiar/aws-vpc-peering-for-dummies-abcdefg" target="_blank">AWS VPC Peering for dummies</a></li>
+      <li><a class="external-link" href="https://www.slideshare.net/yrosaguiar/ci-cd-automatizando-a-entrega-da-sua-aplicao" target="_blank">CI/CD - Automatizando a entrega da sua aplicação</a></li>
+      <li><a class="external-link" href="https://www.slideshare.net/yrosaguiar/docker-and-infrastructure-evolution" target="_blank">Docker and Infrastructure Evolution</a></li>
+      <li><a class="external-link" href="https://www.slideshare.net/yrosaguiar/onpremise-to-cloud" target="_blank">Onpremise to Cloud</a></li>
+    </ul>
   </section>
 
   <div class="modal" id="projectModal">
@@ -135,8 +147,8 @@
 
     function switchLanguage(lang) {
       const translations = {
-        pt: { aboutTitle: 'Sobre Mim', experienceTitle: 'Experiência Profissional', skillsTitle: 'Skills', certificationsTitle: 'Certificações', projectsTitle: 'Projetos' },
-        en: { aboutTitle: 'About Me', experienceTitle: 'Professional Experience', skillsTitle: 'Skills', certificationsTitle: 'Certifications', projectsTitle: 'Projects' }
+        pt: { aboutTitle: 'Sobre Mim', experienceTitle: 'Experiência Profissional', skillsTitle: 'Skills', certificationsTitle: 'Certificações', projectsTitle: 'Projetos', publicationsTitle: 'Publicações' },
+        en: { aboutTitle: 'About Me', experienceTitle: 'Professional Experience', skillsTitle: 'Skills', certificationsTitle: 'Certifications', projectsTitle: 'Projects', publicationsTitle: 'Publications' }
       };
       const t = translations[lang];
       for (const key in t) {
