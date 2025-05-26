@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,9 +21,7 @@
     ul { list-style-type: square; padding-left: 20px; }
     a { color: var(--secondary-color); text-decoration: none; cursor: pointer; }
     a.external-link { color: var(--secondary-color); text-decoration: underline; }
-    button.theme-toggle, select.language-toggle { position: fixed; top: 20px; padding: 10px 20px; background: var(--secondary-color); color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 999; }
-    button.theme-toggle { right: 20px; }
-    select.language-toggle { left: 20px; }
+    button.theme-toggle { position: fixed; top: 20px; right: 20px; padding: 10px 20px; background: var(--secondary-color); color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 999; }
     .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); justify-content: center; align-items: center; }
     .modal-content { background: white; padding: 20px; border-radius: 8px; max-width: 600px; text-align: center; transform: scale(0.8); opacity: 0; animation: zoomIn 0.5s forwards; }
     .modal-content h3 { margin-top: 0; }
@@ -34,32 +32,28 @@
 </head>
 <body>
   <button class="theme-toggle" onclick="toggleTheme()">🌙/☀️</button>
-  <select class="language-toggle" onchange="switchLanguage(this.value)">
-    <option value="en">English</option>
-    <option value="pt">Português</option>
-  </select>
 
   <header>
-    <h1 id="name">Yros Aguiar</h1>
-    <p id="title">Staff SRE | DevOps | Cloud | Platform Engineer</p>
-    <p id="location">Florianópolis, SC, Brasil</p>
+    <h1>Yros Aguiar</h1>
+    <p>Staff SRE | DevOps | Cloud | Platform Engineer</p>
+    <p>Florianópolis, SC, Brazil</p>
     <p>Email: yrosaguiar@gmail.com | <a href="https://www.linkedin.com/in/yros-aguiar-6a893b32/">LinkedIn</a> | <a href="https://github.com/yrosaguiar">GitHub</a> | <a href="https://medium.com/devops-for-zombies">Medium</a></p>
   </header>
 
   <section>
-    <h2 id="aboutTitle">Sobre Mim</h2>
-    <p id="aboutDesc">Sou um profissional de TI com mais de 18 anos de experiência, sendo 9 anos dedicados a operações SRE/DevOps e 11 anos em engenharia de software. Atualmente atuo como Staff SRE/DevOps/Platform Engineer na Collegia, com foco em Cloud, Kubernetes, GitOps, Observabilidade e Infraestrutura como Código (IaC). Apaixonado por automação, melhoria da experiência do desenvolvedor (DevEx) e por promover boas práticas na engenharia de software.</p>
+    <h2>About Me</h2>
+    <p>I am an IT professional with over 18 years of experience, including 9 years dedicated to SRE/DevOps operations and 11 years in software engineering. Currently, I work as a Staff SRE/DevOps/Platform Engineer at Collegia, focusing on Cloud, Kubernetes, GitOps, Observability, and Infrastructure as Code (IaC). Passionate about automation, enhancing developer experience (DevEx), and promoting best practices in software engineering.</p>
 
-    <h2 id="experienceTitle">Experiência Profissional</h2>
+    <h2>Professional Experience</h2>
     <ul>
-      <li><strong>Staff SRE - Collegia</strong> (2024-2025): Kubernetes em Azure e GCP, Terraform, ArgoCD, Observabilidade, Resiliência e BCP/DRP.</li>
-      <li><strong>Senior DevOps/SRE - TotalPass Brasil</strong> (2024): GitOps com ArgoCD e Kubernetes, CI/CD, modernização de infraestrutura.</li>
+      <li><strong>Staff SRE - Collegia</strong> (2024-2025): Kubernetes on Azure and GCP, Terraform, ArgoCD, Observability, Resilience, BCP/DRP.</li>
+      <li><strong>Senior DevOps/SRE - TotalPass Brasil</strong> (2024): GitOps with ArgoCD and Kubernetes, CI/CD, infrastructure modernization.</li>
       <li><strong>Senior DevOps Engineer/SRE - Lumenalta (Clevertech)</strong> (2022-2023): AWS, Terraform, Datadog, DevSecOps.</li>
-      <li><strong>SRE Lead - Arcotech</strong> (2021-2022): GitOps com Crossplane, Prometheus, New Relic.</li>
+      <li><strong>SRE Lead - Arcotech</strong> (2021-2022): GitOps with Crossplane, Prometheus, New Relic.</li>
       <li><strong>SRE/DevOps - Pipefy</strong> (2019-2021): Kubernetes, ArgoCD, Terraform Cloud, Atlantis.</li>
-      <li><strong>SRE/Cloud Architect - Pixeon</strong> (2018-2019): AWS e Azure, Kubernetes, CI/CD.</li>
-      <li><strong>SRE/DevOps - 99</strong> (2018): Hybrid Cloud, Terraform, automação.</li>
-      <li><strong>DevOps/SRE - Geru</strong> (2017): AWS, Terraform, CircleCI, NewRelic.</li>
+      <li><strong>SRE/Cloud Architect - Pixeon</strong> (2018-2019): AWS and Azure, Kubernetes, CI/CD.</li>
+      <li><strong>SRE/DevOps - 99</strong> (2018): Hybrid Cloud, Terraform, automation.</li>
+      <li><strong>DevOps/SRE - Geru</strong> (2017): AWS, Terraform, CircleCI, New Relic.</li>
       <li><strong>Cloud Architect/DevOps - HomeRefill</strong> (2015-2017): AWS, Google Cloud, Docker, Jenkins, Chef.</li>
       <li><strong>AWS Solutions Architect - yros | AWS Solution Provider</strong> (2014-2016)</li>
       <li><strong>Infrastructure Architect - Arizona</strong> (2014-2016)</li>
@@ -69,18 +63,17 @@
       <li><strong>Support Analyst - Casa de Saúde Santa Marcelina</strong> (2008-2011)</li>
     </ul>
 
-    <h2 id="skillsTitle">Skills</h2>
+    <h2>Skills</h2>
     <ul>
       <li><strong>Hard Skills:</strong> GitOps, Kubernetes (AKS, EKS, GKE), Terraform, ArgoCD, CI/CD, Cloud (AWS, GCP, Azure, OCI), Monitoring (Prometheus, Grafana, Datadog, New Relic), AppSec, Security, IAM, VPC, CloudFormation, Docker, Linux, Networking, VPNs, Shell Scripting, Bash, YAML, Terraform HCL, Golang (basic)</li>
       <li><strong>Soft Skills:</strong> Technical leadership, problem-solving, analytical thinking, effective communication, organization, adaptability, teamwork, critical thinking, and continuous learning</li>
     </ul>
-    
 
-    <h2 id="certificationsTitle">Certificações</h2>
+    <h2>Certifications</h2>
     <ul>
       <li>ArgoCD - GitOps Fundamentals (Codefresh)</li>
       <li>AWS Professional (AWS Hub)</li>
-      <li>CCNP Routing e CCNP Switching (NETTS)</li>
+      <li>CCNP Routing and CCNP Switching (NETTS)</li>
       <li>EF SET Certificate - B2 Upper Intermediate (EF English Live)</li>
       <li>Datadog (2024)</li>
       <li>Certified AppSec Practitioner (CAP) (2024)</li>
@@ -97,29 +90,26 @@
       <li>DBCEX (DLink Sudamericana, 2010)</li>
     </ul>
 
-    <h2 id="projectsTitle">Projetos</h2>
+    <h2>Projects</h2>
     <ul>
-      <li><a onclick="openModal('GitOps Implementation', 'Automação de deploys com ArgoCD e Kubernetes')">GitOps Implementation</a></li>
-      <li><a onclick="openModal('Plataformas de Observabilidade', 'Projetos de monitoramento com Datadog, New Relic e Prometheus')">Plataformas de Observabilidade</a></li>
-      <li><a onclick="openModal('Automação de Pipelines', 'CI/CD com ArgoCD, GitHub Actions e Terraform')">Automação de Pipelines</a></li>
-      <li><a onclick="openModal('BCP/DRP Architectures', 'Planos de continuidade de negócio e recuperação de desastres')">BCP/DRP Architectures</a></li>
-      <li><a onclick="openModal('Cloud Migrations', 'Migrações de Kubernetes e aplicações para GCP, AKS e AWS')">Cloud Migrations</a></li>
+      <li><a onclick="openModal('GitOps Implementation', 'Deploy automation with ArgoCD and Kubernetes')">GitOps Implementation</a></li>
+      <li><a onclick="openModal('Observability Platforms', 'Monitoring projects with Datadog, New Relic, and Prometheus')">Observability Platforms</a></li>
+      <li><a onclick="openModal('Pipeline Automation', 'CI/CD with ArgoCD, GitHub Actions, and Terraform')">Pipeline Automation</a></li>
+      <li><a onclick="openModal('BCP/DRP Architectures', 'Business continuity and disaster recovery plans')">BCP/DRP Architectures</a></li>
+      <li><a onclick="openModal('Cloud Migrations', 'Kubernetes and application migrations to GCP, AKS, and AWS')">Cloud Migrations</a></li>
     </ul>
 
-    <h2 id="publicationsTitle">Publicações</h2>
+    <h2>Publications</h2>
     <ul>
-        
-      <li><a class="external-link" href="https://medium.com/devops-for-zombies/import%C3%A2ncia-da-experi%C3%AAncia-do-desenvolvedor-na-engenharia-de-plataforma-5fb932aac371" target="_blank">DevEX na Engenharia de Plataforma (2024)</a></li>
+      <li><a class="external-link" href="https://medium.com/devops-for-zombies/import%C3%A2ncia-da-experi%C3%AAncia-do-desenvolvedor-na-engenharia-de-plataforma-5fb932aac371" target="_blank">DevEX in Platform Engineering (2024)</a></li>
       <li><a class="external-link" href="https://medium.com/devops-for-zombies/from-zero-to-the-gitops-part-1-59b88124de46" target="_blank">From Zero to the GitOps (2021)</a></li>
       <li><a class="external-link" href="https://medium.com/devops-for-zombies/understanding-k8s-autoscale-f8f3f90938f4" target="_blank">Understanding k8s AutoScale (2020)</a></li>
       <li><a class="external-link" href="https://medium.com/devops-for-zombies/understanding-k8s-autoscale-f8f3f90938f4" target="_blank">10 steps for achieving the CKA certification (2020)</a></li>
       <li><a class="external-link" href="https://medium.com/devops-for-zombies/aws-vpc-peering-for-dummies-ab93c3eb2cb2" target="_blank">AWS VPC Peering for dummies (2020)</a></li>
-      <li><a class="external-link" href="https://www.slideshare.net/slideshow/cicd-automatizando-a-entrega-da-sua-aplicao/92785454" target="_blank">CI/CD - Automatizando a entrega da sua aplicação (2018)</a></li>
+      <li><a class="external-link" href="https://www.slideshare.net/slideshow/cicd-automatizando-a-entrega-da-sua-aplicao/92785454" target="_blank">CI/CD - Automating your application's delivery (2018)</a></li>
       <li><a class="external-link" href="https://www.slideshare.net/slideshow/docker-and-infrastructure-evolution/82621601" target="_blank">Docker and Infrastructure Evolution (2018)</a></li>
       <li><a class="external-link" href="https://www.slideshare.net/slideshow/whitepaper-yros-o2cv10/62868366" target="_blank">Onpremise to Cloud (2016)</a></li>
-      <li><a class="external-link" href="https://www.youtube.com/watch?v=Mey_hUKNpQY" target="_blank">AWS Suas Tecnologias e Beneficios (2014)</a></li>
-      
-
+      <li><a class="external-link" href="https://www.youtube.com/watch?v=Mey_hUKNpQY" target="_blank">AWS Technologies and Benefits (2014)</a></li>
     </ul>
   </section>
 
@@ -127,12 +117,12 @@
     <div class="modal-content">
       <h3 id="modalTitle"></h3>
       <p id="modalDesc"></p>
-      <button onclick="closeModal()">Fechar</button>
+      <button onclick="closeModal()">Close</button>
     </div>
   </div>
 
   <footer>
-    <p>&copy; 2025 Yros Aguiar - Todos os direitos reservados</p>
+    <p>&copy; 2025 Yros Aguiar - All rights reserved</p>
   </footer>
 
   <script>
@@ -146,17 +136,6 @@
         body.classList.add('dark');
         body.style.background = 'var(--background-dark)';
         body.style.color = 'var(--text-light)';
-      }
-    }
-
-    function switchLanguage(lang) {
-      const translations = {
-        pt: { aboutTitle: 'Sobre Mim', experienceTitle: 'Experiência Profissional', skillsTitle: 'Skills', certificationsTitle: 'Certificações', projectsTitle: 'Projetos', publicationsTitle: 'Publicações' },
-        en: { aboutTitle: 'About Me', experienceTitle: 'Professional Experience', skillsTitle: 'Skills', certificationsTitle: 'Certifications', projectsTitle: 'Projects', publicationsTitle: 'Publications' }
-      };
-      const t = translations[lang];
-      for (const key in t) {
-        document.getElementById(key).innerText = t[key];
       }
     }
 
