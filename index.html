@@ -14,24 +14,19 @@
       --text-dark: #333;
     }
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: var(--background-light); color: var(--text-dark); transition: all 0.3s ease-in-out; }
-    header, footer { background: var(--primary-color); color: var(--text-light); text-align: center; padding: 20px; animation: fadeInDown 1s ease-in-out; }
-    header h1 { margin: 0; font-size: 2.5em; }
-    header p, footer p { margin: 5px 0; font-size: 1em; }
-    section { padding: 20px; max-width: 900px; margin: auto; animation: fadeInUp 1s ease-in-out; }
-    h2 { color: var(--primary-color); border-bottom: 2px solid var(--primary-color); padding-bottom: 5px; animation: slideInLeft 1s ease-in-out; }
+    header, footer { background: var(--primary-color); color: var(--text-light); text-align: center; padding: 20px; }
+    header h1, header p, footer p, section h2 { color: inherit; transition: color 0.3s ease-in-out; }
+    section { padding: 20px; max-width: 900px; margin: auto; }
+    h2 { border-bottom: 2px solid var(--primary-color); padding-bottom: 5px; }
     ul { list-style-type: square; padding-left: 20px; }
     a { color: var(--secondary-color); text-decoration: none; cursor: pointer; }
     button.theme-toggle, select.language-toggle { position: fixed; top: 20px; padding: 10px 20px; background: var(--secondary-color); color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 999; }
     button.theme-toggle { right: 20px; }
     select.language-toggle { left: 20px; }
-    .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); justify-content: center; align-items: center; animation: fadeInModal 0.5s forwards; }
+    .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); justify-content: center; align-items: center; }
     .modal-content { background: white; padding: 20px; border-radius: 8px; max-width: 600px; text-align: center; transform: scale(0.8); opacity: 0; animation: zoomIn 0.5s forwards; }
     .modal-content h3 { margin-top: 0; }
     .modal-content button { background: var(--secondary-color); color: white; border: none; padding: 10px 20px; border-radius: 5px; margin-top: 10px; cursor: pointer; }
-    @keyframes fadeInDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes slideInLeft { from { opacity: 0; transform: translateX(-50px); } to { opacity: 1; transform: translateX(0); } }
-    @keyframes fadeInModal { from { background: rgba(0,0,0,0); } to { background: rgba(0,0,0,0.8); } }
     @keyframes zoomIn { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
     @keyframes zoomOut { from { transform: scale(1); opacity: 1; } to { transform: scale(0.8); opacity: 0; } }
   </style>
@@ -47,7 +42,7 @@
     <h1 id="name">Yros Aguiar</h1>
     <p id="title">Staff SRE | DevOps | Cloud | Platform Engineer</p>
     <p id="location">Florianópolis, SC, Brasil</p>
-    <p>Email: yrosaguiar@gmail.com | <a href="https://www.linkedin.com/in/yros-aguiar-6a893b32/">LinkedIn</a></p>
+    <p>Email: yrosaguiar@gmail.com | <a href="https://www.linkedin.com/in/yros-aguiar-6a893b32/">LinkedIn</a> | <a href="https://github.com/yrosaguiar">GitHub</a> | <a href="https://medium.com/devops-for-zombies">Medium</a></p>
   </header>
 
   <section>
@@ -127,32 +122,21 @@
   <script>
     function toggleTheme() {
       const body = document.body;
-      const currentBg = getComputedStyle(body).getPropertyValue('--background-light');
-      if (body.style.background === currentBg || body.style.background === '') {
-        body.style.background = 'var(--background-dark)';
-        body.style.color = 'var(--text-light)';
-      } else {
+      if (body.classList.contains('dark')) {
+        body.classList.remove('dark');
         body.style.background = 'var(--background-light)';
         body.style.color = 'var(--text-dark)';
+      } else {
+        body.classList.add('dark');
+        body.style.background = 'var(--background-dark)';
+        body.style.color = 'var(--text-light)';
       }
     }
 
     function switchLanguage(lang) {
       const translations = {
-        pt: {
-          aboutTitle: 'Sobre Mim',
-          experienceTitle: 'Experiência Profissional',
-          skillsTitle: 'Skills',
-          certificationsTitle: 'Certificações',
-          projectsTitle: 'Projetos'
-        },
-        en: {
-          aboutTitle: 'About Me',
-          experienceTitle: 'Professional Experience',
-          skillsTitle: 'Skills',
-          certificationsTitle: 'Certifications',
-          projectsTitle: 'Projects'
-        }
+        pt: { aboutTitle: 'Sobre Mim', experienceTitle: 'Experiência Profissional', skillsTitle: 'Skills', certificationsTitle: 'Certificações', projectsTitle: 'Projetos' },
+        en: { aboutTitle: 'About Me', experienceTitle: 'Professional Experience', skillsTitle: 'Skills', certificationsTitle: 'Certifications', projectsTitle: 'Projects' }
       };
       const t = translations[lang];
       for (const key in t) {
