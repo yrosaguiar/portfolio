@@ -6,7 +6,7 @@ IT professional with 18+ years of experience, including 9 years in SRE/DevOps an
 
 ---
 
-## ✅ Release (Change Log)
+## ✅ Release Log
 
 ### 💼 Work Experience
 
@@ -126,7 +126,10 @@ IT professional with 18+ years of experience, including 9 years in SRE/DevOps an
 ---
 
 ## 📚 Publications
-
+- `docs(pub): Resolving intermittent timeouts in ISO-8583 transactions with TCP and buffer tweaks in Python`
+- `docs(pub): Multi-cluster GitOps automating Oracle APEX and Kubernetes on Oracle Cloud`
+- `docs(pub): Migrating Azure Functions and Container Apps to Kubernetes (GKE) using GitOps`
+- `docs(pub): DevEx in Platform Engineering`
 - `docs(pub): DevEx in Platform Engineering`
 - `docs(pub): From Zero to the GitOps`
 - `docs(pub): Understanding k8s AutoScale`
@@ -143,7 +146,8 @@ IT professional with 18+ years of experience, including 9 years in SRE/DevOps an
 - **IaC & CI/CD:** Terraform, Atlantis, GitHub Actions, CircleCI  
 - **Monitoring:** Datadog, New Relic, Prometheus, Grafana  
 - **Security:** AppSec, IAM, External Secrets, VPN  
-- **Tools:** Golang, Shell, Docker, Linux, VMware  
+- **Languages:** Golang, Python, Shell
+- **Operating Systems:** Linux, Windows  
 
 ---
 
