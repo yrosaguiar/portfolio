@@ -11,16 +11,16 @@ IT professional with over 18 years of experience, including 9 years in SRE/DevOp
 ### 💼 Work Experience
 
 - `feat(exp): Staff SRE at Collegia (Sep 2024 – Feb 2025)`  
-  Led infrastructure modernization for a fintech SaaS platform. Migrated to Google Cloud, reducing cloud costs and increasing system resilience. Enabled faster, more reliable software releases through automation and GitOps.
+  Led infrastructure modernization for the SaaS platform. Migrated to Google Cloud (GKE), reducing cloud costs and increasing system resilience. Enabled faster, more reliable software releases through automation and GitOps.
 
 - `feat(exp): Sr DevOps/SRE at TotalPass Brasil (Apr 2024 – Sep 2024)`  
-  Streamlined CI/CD workflows, accelerating time-to-market. Improved application availability, directly enhancing customer satisfaction during growth phase.
+  Infrastructure Modernization. Improved application availability, directly enhancing engineering satisfaction.
 
 - `feat(exp): Sr DevOps Engineer at Lumenalta (Nov 2022 – Dec 2023)`  
   Supported distributed engineering teams by ensuring infrastructure uptime and scalability. Reduced incident response times, improving platform reliability.
 
 - `feat(exp): SRE Lead at Arcotech (Feb 2021 – Nov 2022)`  
-  Developed internal DevOps platforms that empowered developer autonomy and reduced operational overhead. Promoted a reliability-driven engineering culture.
+  Developed Cloud Native platforms that empowered developer autonomy and reduced operational overhead. Promoted a reliability-driven engineering culture.
 
 - `feat(exp): SRE/DevOps at Pipefy (Apr 2019 – Feb 2021)`  
   Improved observability and performance of the business automation platform. Contributed to enhanced customer support with proactive monitoring.
@@ -38,10 +38,10 @@ IT professional with over 18 years of experience, including 9 years in SRE/DevOp
   Managed multicloud operations and disaster recovery for logistics-focused e-commerce platform.
 
 - `feat(exp): AWS Architect at yros | aws solution provider (Jul 2014 – Jul 2016)`  
-  Delivered cloud solutions to SMBs, optimizing delivery time and cloud costs.
+  Delivered cloud solutions for Startups, optimizing delivery time and cloud costs.
 
 - `feat(exp): Infra Architect at Arizona Premedia (2013 – 2016)`  
-  Supported digital marketing with robust, secure infrastructure and IaC automation.
+  Supported digital marketing with robust, secure infrastructure and IaC automation and support engineering on Visto SaaS platform creation.
 
 - `feat(exp): IT Coordinator at Gráficos Burti (2012 – 2013)`  
   Led IT operations, trained technical teams, and aligned infrastructure with business needs.
@@ -69,12 +69,12 @@ IT professional with over 18 years of experience, including 9 years in SRE/DevOp
 
 ## 🤝 Soft Skills
 
-- `epic: Strategic thinking and business-oriented problem solving`
-- `epic: Effective communicator across technical and executive levels`
-- `epic: Mentorship and cross-functional team collaboration`
-- `epic: Adaptability to change and dynamic environments`  
-- `epic: Customer-focused mindset with a commitment to reliability`  
-- `epic: Continuous learning and improvement advocacy`
+- Strategic thinking and business-oriented problem solving  
+- Effective communicator across technical and executive levels  
+- Mentorship and cross-functional team collaboration  
+- Adaptability to change and dynamic environments  
+- Customer-focused mindset with a commitment to reliability  
+- Continuous learning and improvement advocacy
 
 ---
 
