@@ -1,95 +1,152 @@
-apiVersion: cv.yros.dev/v1alpha1
-kind: CurriculumVitae
+
+apiVersion: yros.cloud/v1
+kind: DevOpsEngineerResume
 metadata:
   name: yros-aguiar
-  labels:
-    role: staff-sre
-    location: florianopolis
-    language: en
+  email: yrosaguiar@gmail.com
+  location: Florianópolis, Brazil
+  date: '2025-06-08'
 spec:
-  summary: IT professional with over 18 years of experience, including 9 years in
-    SRE/DevOps and 11 years in cloud applications. Specialized in AWS, Kubernetes,
-    Terraform, Observability, and CI/CD. Experienced with Azure, GCP, and OCI. Passionate
-    about cloud-native architecture, automation, GitOps, and performance optimization.
+  summary: IT professional with 18+ years of experience, including 9 years in SRE/DevOps
+    and 11 years working with cloud applications. Specialized in AWS, Kubernetes,
+    Terraform, Observability and CI/CD. Experienced with Azure, GCP, and OCI. Passionate
+    about cloud-native architectures, automation, GitOps, and performance optimization.
+  workExperience:
+    - title: Staff SRE at Collegia
+      period: Sep 2024 – Feb 2025
+      highlights:
+        - Redesigned multi-cloud infrastructure using Kubernetes on AKS and GKE.
+        - Migrated apps from Azure Container Apps and Functions to Kubernetes with KEDA.
+        - Implemented GitOps with ArgoCD and Terraform.
+        - Installed Prometheus, Grafana, External Secrets, External DNS, and Operators.
+        - Built reusable GitHub Actions pipelines.
+      impact:
+        - Unified platform across Azure and GCP
+        - Efficient autoscaling
+        - Streamlined deployments
+        - Full-stack observability
+    - title: Sr DevOps/SRE at TotalPass Brasil
+      period: Apr 2024 – Sep 2024
+      highlights:
+        - Migrated CI/CD to GitHub Actions.
+        - Built GitOps pipelines with ArgoCD and Kubernetes.
+        - Migrated services from ECS to EKS.
+        - Designed AWS Blueprints with Terraform.
+        - Integrated AWS SSO and VPN.
+      impact:
+        - 60% faster deployments
+        - Zero-trust access
+        - Reduced infra provisioning time
+        - Fewer manual errors
+    - title: Sr DevOps Engineer at Lumenalta
+      period: Nov 2022 – Dec 2023
+      highlights:
+        - Built infra for Now300 project from scratch.
+        - Full-stack observability with Datadog.
+        - Designed distributed systems with K8s, Terraform, AWS CDK.
+        - Improved DevEx via templates and automation.
+      impact:
+        - Production-ready infrastructure
+        - Strong DevOps–Dev collaboration
+        - Complete observability
+    - title: SRE Lead at Arcotech
+      period: Feb 2021 – Nov 2022
+      highlights:
+        - Built entire platform using AWS, KOPS, ArgoCD, Helm, Grafana.
+        - Led SRE team, postmortems and on-call.
+        - Consolidated infra across business units.
+        - Fostered InnerSource culture and team mentorship.
+      impact:
+        - Unified infra strategy
+        - Improved reliability and culture
+    - title: SRE/DevOps at Pipefy
+      period: Apr 2019 – Feb 2021
+      highlights:
+        - Built GitLab CI/CD pipelines.
+        - Designed tenant infra with Terraform.
+        - Canary releases, ArgoCD and Helm GitOps.
+        - Datadog monitoring.
+      impact:
+        - Accelerated delivery
+        - Improved DevEx
+        - Enhanced visibility
+    - title: Cloud Architect at Pixeon
+      period: Sep 2018 – Apr 2019
+      highlights:
+        - Automated infra across AWS and Azure with Kubernetes and Docker.
+    - title: SRE/DevOps at 99
+      period: Jan 2018 – Sep 2018
+      highlights:
+        - Hybrid cloud infra and DevOps automation.
+    - title: DevOps/SRE at Geru
+      period: Jun 2017 – Nov 2017
+      highlights:
+        - Terraform, CircleCI, Rancher, Docker, NewRelic.
+    - title: Cloud Architect at HomeRefill
+      period: Oct 2015 – Jun 2017
+      highlights:
+        - Rancher, Jenkins, Chef, AWS/GCP multicloud automation.
+    - title: AWS Architect at yros | AWS Solution Provider
+      period: Jul 2014 – Jul 2016
+      highlights:
+        - Consulting, cost optimization, monitoring automation.
+    - title: Infra Architect & Specialist at Arizona
+      period: May 2013 – Jan 2016
+      highlights:
+        - VMware migrations, disaster recovery, IaC.
+    - title: IT Coordinator at Graficos Burti
+      period: May 2012 – May 2013
+      highlights:
+        - IT strategy, team training, risk management.
+    - title: Support Analyst at Santa Marcelina
+      period: Sep 2008 – Jun 2011
+      highlights:
+        - Data center, AD, VMware, HP-UX.
+
+  education:
+    - Bachelor's in Information Systems - Universidade Anhanguera (2011)
+
+  certifications:
+    - AWS Certified Solutions Architect – Associate (2023)
+    - HashiCorp Terraform Associate (2020)
+    - CKA + CKAD (CNCF, 2020)
+    - ArgoCD - GitOps Fundamentals (2022)
+    - Datadog (2024)
+    - New Relic Full Stack & Foundations (2024)
+    - Certified AppSec Practitioner (2024)
+    - CCNP Routing & Switching (NETTS)
+    - EF SET B2 - English
+    - ITIL, CCNA, DBCEX
+
+  publications:
+    - Resolving intermittent timeouts in ISO-8583 transactions with TCP and buffer tweaks in Python
+    - Multi-cluster GitOps automating Oracle APEX and Kubernetes on Oracle Cloud
+    - Migrating Azure Functions and Container Apps to Kubernetes (GKE) using GitOps
+    - DevEx in Platform Engineering
+    - From Zero to the GitOps
+    - Understanding k8s AutoScale
+    - 10 steps for achieving CKA
+    - AWS VPC Peering for dummies
+    - On-Prem to Cloud Migration
+
+  hardSkills:
+    cloud: [AWS, GCP, Azure, OCI]
+    kubernetes: [AKS, EKS, GKE, Rancher, Helm, ArgoCD]
+    iac_cicd: [Terraform, Atlantis, GitHub Actions, CircleCI]
+    monitoring: [Datadog, New Relic, Prometheus, Grafana]
+    security: [AppSec, IAM, External Secrets, VPN]
+    languages: [Golang, Python, Shell]
+    operatingSystems: [Linux, Windows]
+
+  softSkills:
+    - Leadership & mentoring
+    - Effective communication
+    - Decision-making & ownership
+    - Collaboration with Dev teams
+    - Incident management & postmortems
+    - Proactive & continuous learning
+
   contact:
-    email: yrosaguiar@gmail.com
     github: https://github.com/yrosaguiar
     linkedin: https://linkedin.com/in/yros-aguiar-6a893b32
-    location: Florianópolis, Brazil
-  experience:
-  - company: Collegia
-    title: Staff SRE
-    period: Sep 2024 – Feb 2025
-    impact: Migrated infrastructure to GCP, improved deployment speed and system resilience.
-  - company: TotalPass Brasil
-    title: Sr DevOps/SRE
-    period: Apr 2024 – Sep 2024
-    impact: Streamlined CI/CD and improved service availability during business growth.
-  - company: Lumenalta
-    title: Sr DevOps Engineer
-    period: Nov 2022 – Dec 2023
-    impact: Supported distributed teams and improved reliability through automation.
-  education:
-  - degree: Bachelor's in Information Systems
-    institution: Universidade Anhanguera
-    year: 2011
-  certifications:
-  - AWS Certified Solutions Architect – Associate (2023)
-  - Terraform Associate (2020)
-  - CKA + CKAD (2020)
-  - ArgoCD Fundamentals (2022)
-  - Datadog (2024)
-  - New Relic (2024)
-  - Certified AppSec Practitioner (2024)
-  softSkills:
-  - Strategic thinking
-  - Effective communication
-  - Team mentorship
-  - Problem-solving
-  - Adaptability
-  - Customer focus
-  skills:
-    cloud:
-    - AWS
-    - GCP
-    - Azure
-    - OCI
-    kubernetes:
-    - AKS
-    - GKE
-    - EKS
-    - Rancher
-    - Helm
-    - ArgoCD
-    - Crossplane
-    iac:
-    - Terraform
-    - Atlantis
-    - GitHub Actions
-    - Jenkins
-    monitoring:
-    - Datadog
-    - New Relic
-    - Prometheus
-    - Grafana
-    security:
-    - AppSec
-    - External Secrets
-    - IAM
-    - Disaster Recovery
-    networking:
-    - Cloudflare
-    - WAF
-    - VPN
-    - IDS/IPS
-    languages:
-    - Golang
-    - Shell
-    - Linux
-    - Docker
-  publications:
-  - Configuring NAT on Cisco IOS
-  - Setting up DHCP Server on Linux
-  - Squid Authentication with AD Groups
-  - On-Prem to Cloud Migration
-  - Shell Redirection Techniques
+    email: yrosaguiar@gmail.com
