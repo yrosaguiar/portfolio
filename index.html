@@ -88,32 +88,28 @@
       margin-top: 1.5em;
     }
 
-    .tech-icons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      align-items: center;
-      margin-bottom: 1.5rem;
-    }
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin: 1.5rem auto;
+  max-width: 100%;
+}
 
-    .tech-icons img {
-      height: 32px;
-      max-width: 100%;
-    }
+.tech-icons img {
+  height: 40px;
+  max-width: 100%;
+  object-fit: contain;
+}
 
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 1.2rem;
-      }
-
-      .container {
-        padding: 1rem;
-      }
-
-      .tech-icons {
-        justify-content: center;
-      }
-    }
+@media (max-width: 600px) {
+  .tech-icons {
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+}
   </style>
 </head>
 <body>
@@ -136,24 +132,24 @@
 <h2>✨ Summary</h2>
     <p>IT professional with 18+ years of experience, including 9 years in SRE/DevOps and 11 years working with cloud applications. Specialized in AWS, Kubernetes, Terraform, Observability and CI/CD. Experienced with Azure, GCP, and OCI. Passionate about cloud-native architectures, automation, GitOps, and performance optimization. Based in Florianópolis, Brazil.</p>
     <hr>
-   <div class="header" style="display: flex; flex-wrap: nowrap; gap: 10px; align-items: center; margin-bottom: 20px;">
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" title="GitHub" alt="GitHub" height="32">
-    <img src="https://icon.icepanel.io/Technology/svg/GitLab.svg" title="Gitlab" alt="Gitlab" height="32">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" title="Kubernetes" alt="Kubernetes" height="32">
-    <img src="https://icon.icepanel.io/Technology/svg/Argo-CD.svg" title="ArgoCD" alt="ArgoCD" height="32">
-    <img src="https://www.jenkins.io/images/logos/jenkins/jenkins.svg" title="Jenkins" alt="Jenkins" height="32">
-    <img src="https://icon.icepanel.io/Technology/svg/HashiCorp-Terraform.svg" title="Terraform" alt="Terraform" height="32">
-    <img src="https://icon.icepanel.io/Technology/svg/AWS.svg" title="AWS" alt="AWS" height="32">
-    <img src="https://icon.icepanel.io/Technology/svg/Azure.svg" title="Azure" alt="Azure" height="32">
-    <img src="https://icon.icepanel.io/Technology/svg/Google-Cloud.svg" title="GCP" alt="GCP" height="32">
-    <img src="https://icon.icepanel.io/Technology/svg/Oracle.svg" title="Oracle Cloud" alt="Oracle Cloud" height="32">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" title="Golang" alt="Golang" height="32">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" alt="Python" height="32">
-    <img src="https://helm.sh/img/helm.svg" title="Helm" alt="Helm" height="32">
-    <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" title="Docker" alt="Docker" height="32">
-    <img src="https://icon.icepanel.io/Technology/svg/Linux.svg" title="Linux" alt="Linux" height="32">
-    <img src="https://imgix.datadoghq.com/img/about/presskit/usage/logousage_purple.png" title="Datadog" alt="Datadog" height="32">
-  </div>
+<div class="tech-icons">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" title="GitHub" alt="GitHub">
+  <img src="https://icon.icepanel.io/Technology/svg/GitLab.svg" title="Gitlab" alt="Gitlab">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" title="Kubernetes" alt="Kubernetes">
+  <img src="https://icon.icepanel.io/Technology/svg/Argo-CD.svg" title="ArgoCD" alt="ArgoCD">
+  <img src="https://www.jenkins.io/images/logos/jenkins/jenkins.svg" title="Jenkins" alt="Jenkins">
+  <img src="https://icon.icepanel.io/Technology/svg/HashiCorp-Terraform.svg" title="Terraform" alt="Terraform">
+  <img src="https://icon.icepanel.io/Technology/svg/AWS.svg" title="AWS" alt="AWS">
+  <img src="https://icon.icepanel.io/Technology/svg/Azure.svg" title="Azure" alt="Azure">
+  <img src="https://icon.icepanel.io/Technology/svg/Google-Cloud.svg" title="GCP" alt="GCP">
+  <img src="https://icon.icepanel.io/Technology/svg/Oracle.svg" title="Oracle Cloud" alt="Oracle Cloud">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" title="Golang" alt="Golang">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" alt="Python">
+  <img src="https://helm.sh/img/helm.svg" title="Helm" alt="Helm">
+  <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" title="Docker" alt="Docker">
+  <img src="https://icon.icepanel.io/Technology/svg/Linux.svg" title="Linux" alt="Linux">
+  <img src="https://imgix.datadoghq.com/img/about/presskit/usage/logousage_purple.png" title="Datadog" alt="Datadog">
+</div>
 
     <hr>
 
