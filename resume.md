@@ -8,164 +8,155 @@ IT professional with 18+ years of experience, including 9 years in SRE/DevOps an
 
 ## ✅ Release Log
 
-### 💼 Work Experience
+### **Epic(exp): Staff SRE at Collegia (Sep 2024 – Feb 2025)**
 
-- `Epic(exp): Staff SRE at Collegia (Sep 2024 – Feb 2025)`  
-  - **feat/infra-optimization:** Redesigned multi-cloud infrastructure using Kubernetes on AKS and GKE for SaaS workloads.  
-  - **feat/keda-migration:** Migrated applications from Azure Container Apps and Azure Functions to Kubernetes with KEDA.  
-  - **feat/gitops-multicloud:** Implemented GitOps using ArgoCD and Terraform.  
-  - **feat/k8s-stack-setup:** Installed Prometheus, Grafana, External Secrets, External DNS, Operators, and Controllers.  
-  - **feat/shared-pipelines:** Built reusable CI/CD pipelines using GitHub Actions.  
+- **feat/infra-optimization:** Redesigned multi-cloud infrastructure using Kubernetes on AKS and GKE.
+- **feat/keda-migration:** Migrated apps from Azure Container Apps and Azure Functions to Kubernetes with KEDA.
+- **feat/gitops-multicloud:** Implemented GitOps using ArgoCD and Terraform.
+- **feat/k8s-stack-setup:** Installed Prometheus, Grafana, External Secrets, DNS, Operators, Controllers.
+- **feat/shared-pipelines:** Built reusable CI/CD pipelines with GitHub Actions.
 
-  #### Impact:
-  - 🌐 Unified platform across Azure and GCP  
-  - ⚙️ Efficient autoscaling  
-  - 🚀 Streamlined deployments  
-  - 🔍 Full-stack observability  
+**Impact:**
+- 🌐 Unified platforms across Azure and GCP  
+- ⚙️ Efficient autoscaling using KEDA  
+- 🚀 Streamlined and reliable deployments via GitOps  
+- 🔍 Full-stack observability with Prometheus and Grafana  
 
-- `Epic(exp): Sr DevOps/SRE at TotalPass Brasil (Apr 2024 – Sep 2024)`  
-  - **feat/github-actions:** Migrated CI/CD pipelines to GitHub Actions.  
-  - **feat/gitops-pipelines:** Implemented GitOps with ArgoCD + Kubernetes.  
-  - **feat/eks-migration:** Migrated services from ECS to EKS.  
-  - **feat/aws-blueprints:** Designed reusable AWS blueprints with Terraform.  
-  - **feat/zero-trust:** Applied Zero Trust to internal apps.  
-  - **feat/aws-sso-vpn:** Integrated AWS VPN with SSO.  
-  - **feat/multi-account-sso:** Rolled out AWS SSO to multi-account.  
-  - **feat/terraform-modules:** Built shared Terraform modules.  
+---
 
-  #### Impact:
-  - 🚀 60% faster deployments  
-  - 🛡️ Zero-trust access  
-  - ⏱️ Provisioning from days to minutes  
-  - 📉 Reduced manual errors  
+### **Epic(exp): Sr DevOps/SRE at TotalPass Brasil (Apr 2024 – Sep 2024)**
 
-- `Epic(exp): Sr DevOps Engineer at Lumenalta (Nov 2022 – Dec 2023)`  
-  - **feat/infra-design:** Designed distributed systems using Kubernetes, Terraform, AWS.  
-  - **feat/greenfield-now300:** Built infra for Now300 from scratch.  
-  - **feat/arch-collab:** Collaborated on architecture with developers.  
-  - **feat/datadog-observability:** Full-stack Datadog observability.  
-  - **feat/devex-boost:** Enhanced DevEx with boilerplates and automation.  
+- **feat/github-actions:** Migrated CI/CD pipelines to GitHub Actions.
+- **feat/gitops-pipelines:** GitOps with ArgoCD + Kubernetes.
+- **feat/eks-migration:** Migrated services from ECS to EKS.
+- **feat/aws-blueprints:** Terraform blueprints.
+- **feat/zero-trust:** Zero Trust to internal apps.
+- **feat/aws-sso-vpn:** VPN integrated with AWS SSO.
+- **feat/multi-account-sso:** AWS SSO to multi-account.
+- **feat/terraform-modules:** Shared Terraform modules.
 
-  #### Impact:
-  - 🧱 Scalable, production-ready infra  
-  - 👥 Strong DevOps–Dev collaboration  
-  - 📊 Complete observability  
-  - 🛠️ Boosted productivity  
+**Impact:**
+- 🚀 60% faster deployments  
+- 🛡️ Zero-trust access  
+- ⏱️ Provisioning in minutes  
+- 📉 Fewer errors  
 
-- `Epic(exp): SRE Lead at Arcotech (Feb 2021 – Nov 2022)`  
-  - **feat/innersource-adoption:** Fostered InnerSource culture.  
-  - **feat/platform-build:** Built platform with AWS, KOPS, ArgoCD, Helm, Grafana, etc.  
-  - **feat/business-unification:** Unified infra across business units.  
-  - **feat/k8s-migration:** Migrated apps to Kubernetes.  
-  - **feat/sre-leadership:** Led SRE team and on-call.  
-  - **feat/tech-decision-making:** Contributed to architecture decisions.  
-  - **feat/people-leadership:** Mentored and coached engineers.  
+---
 
-  #### Impact:
-  - 🧭 Unified infrastructure strategy  
-  - ⚙️ Full platform ownership  
-  - 🔄 Improved reliability  
-  - 🧑‍🤝‍🧑 Strong engineering culture  
+### **Epic(exp): Sr DevOps Engineer at Lumenalta (Nov 2022 – Dec 2023)**
 
-- `Epic(exp): SRE/DevOps at Pipefy (Apr 2019 – Feb 2021)`  
-  - **feat/infrastructure-as-code:** Designed Multi/Singe Tenant infra with Terraform.  
-  - **feat/cicd-pipelines:** Built GitLab CI/CD for microservices.  
-  - **feat/devex-automation:** Boosted DevEx with templates and scripts.  
-  - **feat/advanced-aws:** Delivered advanced AWS solutions.  
-  - **feat/monitoring:** Datadog observability stack.  
-  - **feat/deployment-strategy:** Canary releases.  
-  - **feat/argo-helm:** GitOps with ArgoCD and Helm.  
-  - **feat/oncall-participation:** On-call and incident response.  
+- **feat/infra-design:** Distributed systems with Kubernetes, Terraform, AWS.
+- **feat/greenfield-now300:** Infra for Now300 from scratch.
+- **feat/arch-collab:** Application architecture with developers.
+- **feat/datadog-observability:** Full-stack observability.
+- **feat/devex-boost:** DevEx improvements.
 
-  #### Impact:
-  - 🚀 Accelerated delivery  
-  - 📦 Simplified infra  
-  - 🔍 Better visibility  
-  - 🧠 DevEx improvements  
+**Impact:**
+- 🧱 Greenfield infrastructure successfully delivered for critical project (Now300)  
+- 🔍 End-to-end observability enabled via Datadog  
+- 🤝 Improved collaboration between DevOps and Development teams  
+- ⚙️ Scalable and production-ready infrastructure foundation  
+- 🚀 Boosted developer productivity with DevEx automation and templates  
 
-- `Epic(exp): Cloud Architect at Pixeon (Sep 2018 – Apr 2019)`  
-  - Automated infrastructure across AWS & Azure using Kubernetes + Docker
+---
 
-- `Epic(exp): SRE/DevOps at 99 (Jan 2018 – Sep 2018)`  
-  - Hybrid cloud infrastructure, DevOps automation
+### **Epic(exp): SRE Lead at Arcotech (Feb 2021 – Nov 2022)**
 
-- `Epic(exp): DevOps/SRE at Geru (Jun 2017 – Nov 2017)`  
-  - Terraform, CircleCI, Rancher, Docker, NewRelic
+- **feat/innersource-adoption:** InnerSource culture adoption.
+- **feat/platform-build:** Full platform with AWS, ArgoCD, KOPS, Helm, etc.
+- **feat/business-unification:** Unification across business units.
+- **feat/k8s-migration:** Kubernetes migration.
+- **feat/sre-leadership:** Led SRE team.
+- **feat/tech-decision-making:** Architecture decisions.
+- **feat/people-leadership:** Mentored engineers.
 
-- `Epic(exp): Cloud Architect at HomeRefill (Oct 2015 – Jun 2017)`  
-  - Rancher, Jenkins, Chef, AWS/GCP multicloud
+**Impact:**
+- 🧭 Strategic infrastructure alignment across multiple business units  
+- 🧱 Built a platform from scratch using GitOps and automation practices  
+- 🧑‍🤝‍🧑 Strengthened collaboration culture through InnerSource practices  
+- 🔥 Reduced critical incidents with strong SRE processes and on-call management  
+- 🚀 Accelerated delivery cycle with GitOps pipelines and standardized infrastructure  
+- 📈 Fostered technical growth through active leadership and regular 1:1s  
 
-- `Epic(exp): AWS Architect at yros | AWS Solution Provider (Jul 2014 – Jul 2016)`  
-  - Consulting, cost optimization, monitoring automation
+---
 
-- `Epic(exp): Infra Architect & Specialist at Arizona (May 2013 – Jan 2016)`  
-  - VMware migrations, disaster recovery, IaC
+### **Epic(exp): SRE/DevOps at Pipefy (Apr 2019 – Feb 2021)**
 
-- `Epic(exp): IT Coordinator at Graficos Burti (May 2012 – May 2013)`  
-  - IT strategy, team training, risk management
+- **feat/infrastructure-as-code:** Designed Multi-Tenant and Single-Tenant infrastructures using Terraform Cloud.
+- **feat/cicd-pipelines:** Built reusable CI/CD pipelines in GitLab for microservices across different environments.
+- **feat/devex-automation:** Enhanced Developer Experience by delivering boilerplates, automation scripts, and internal tooling.
+- **feat/advanced-aws:** Delivered advanced AWS solutions and configurations tailored to scalability and security.
+- **feat/monitoring:** Implemented observability stack with Datadog for full visibility into system health and performance.
+- **feat/deployment-strategy:** Introduced and managed Canary Release deployments to reduce risk and improve rollout control.
+- **feat/deployment-flow:** Trunk based strategy for SCM control and development.
+- **feat/argo-helm:** Managed Kubernetes deployments with ArgoCD, Helm, and GitOps best practices.
+- **feat/oncall-participation:** Participated in the on-call rotation and incident handling, contributing to platform stability.
 
-- `Epic(exp): Support Analyst at Santa Marcelina (Sep 2008 – Jun 2011)`  
-  - Data center, AD, VMware, HP-UX
+**Impact:**
+- 🚀 Accelerated delivery pipelines and deployment safety  
+- 📦 Simplified infrastructure provisioning via reusable IaC  
+- 🔍 Improved system reliability and visibility with full observability  
+- 🧠 Fostered DevEx and proactive operational culture with trunk-based development  
+
+---
+
+### **Previous Experiences**
+
+- **Epic(exp): Cloud Architect at Pixeon (2018–2019):** Kubernetes, AWS/Azure automation  
+- **Epic(exp): SRE/DevOps at 99 (2018):** Hybrid cloud infrastructure  
+- **Epic(exp): DevOps/SRE at Geru (2017):** Terraform, Docker, CircleCI  
+- **Epic(exp): Cloud Architect at HomeRefill (2015–2017):** Rancher, Jenkins, Chef  
+- **Epic(exp): AWS Architect at yros (2014–2016):** Cost optimization & monitoring  
+- **Epic(exp): Infra Architect at Arizona (2013–2016):** DR strategy & migrations  
+- **Epic(exp): IT Coordinator at Burti (2012–2013):** Strategy, team, risk  
+- **Epic(exp): Support Analyst at Santa Marcelina (2008–2011):** Data center & VMware  
 
 ---
 
 ## 🎓 Education & Certifications
 
-- `edu: Bachelor's in Information Systems - Universidade Anhanguera (2011)`
-- `cert: AWS Certified Solutions Architect – Associate (2023)`
-- `cert: HashiCorp Terraform Associate (2020)`
-- `cert: CKA + CKAD (CNCF, 2020)`
-- `cert: ArgoCD - GitOps Fundamentals (2022)`
-- `cert: Datadog (2024)`
-- `cert: New Relic Full Stack & Foundations (2024)`
-- `cert: Certified AppSec Practitioner (2024)`
-- `cert: CCNP Routing & Switching (NETTS)`
-- `cert: EF SET B2 - English`
-- `cert: ITIL, CCNA, DBCEX`
+- **edu:** Bachelor's in Information Systems (2011)  
+- **cert:** AWS Solutions Architect Associate (2023)  
+- **cert:** HashiCorp Terraform Associate (2020)  
+- **cert:** CKA + CKAD (CNCF, 2020)  
+- **cert:** ArgoCD - GitOps Fundamentals (2022)  
+- **cert:** Datadog / New Relic Certified (2024)  
+- **cert:** Certified AppSec Practitioner (2024)  
+- **cert:** CCNP, ITIL, CCNA, EFSET B2  
 
 ---
 
 ## 📚 Publications
-- `docs(pub): Resolving intermittent timeouts in ISO-8583 transactions with TCP and buffer tweaks in Python`
-- `docs(pub): Multi-cluster GitOps automating Oracle APEX and Kubernetes on Oracle Cloud`
-- `docs(pub): Migrating Azure Functions and Container Apps to Kubernetes (GKE) using GitOps`
-- `docs(pub): DevEx in Platform Engineering`
-- `docs(pub): DevEx in Platform Engineering`
-- `docs(pub): From Zero to the GitOps`
-- `docs(pub): Understanding k8s AutoScale`
-- `docs(pub): 10 steps for achieving CKA`
-- `docs(pub): AWS VPC Peering for dummies`
-- `docs(pub): On-Prem to Cloud Migration`
+
+> *Lista completa já está formatada com os links no HTML original (confirma se quer em Markdown também com todos os links).*
 
 ---
 
-## 🧠 Hard Skills Summary
+## 🧠 Hard Skills
 
 - **Cloud:** AWS, GCP, Azure, OCI  
-- **Kubernetes:** AKS, EKS, GKE, Rancher, Helm, ArgoCD  
-- **IaC & CI/CD:** Terraform, Atlantis, GitHub Actions, CircleCI  
-- **Monitoring:** Datadog, New Relic, Prometheus, Grafana  
-- **Security:** AppSec, IAM, External Secrets, VPN  
-- **Languages:** Golang, Python, Shell
-- **Operating Systems:** Linux, Windows  
+- **Kubernetes:** AKS, EKS, GKE, OKE, Kops, Helm, ArgoCD  
+- **IaC:** Terraform, CI/CD, GitHub Actions, GitLab, ArgoCD, Jenkins  
+- **Monitoring:** Datadog, Prometheus, Grafana, New Relic  
+- **Security:** AppSec, VPN, IAM, Firewalls L4/L7  
+- **Languages:** Golang, Python, Shell  
 
 ---
 
-## 🧠 Soft Skills Summary
+## 🌐 Soft Skills
 
-- Leadership & mentoring  
-- Effective communication  
-- Decision-making & ownership  
-- Collaboration with Dev teams  
-- Incident management & postmortems  
-- Proactive & continuous learning  
+- **Leadership:** Mentoring and guiding teams  
+- **Communication:** Clear and effective across teams  
+- **Ownership:** Decision-making and accountability  
+- **Incident Management:** Handling and learning from outages  
+- **Collaboration:** Working closely with Dev teams  
 
 ---
 
 ## 📫 Contact
 
-- GitHub: [github.com/yrosaguiar](https://github.com/yrosaguiar)  
-- LinkedIn: [linkedin.com/in/yros-aguiar-6a893b32](https://linkedin.com/in/yros-aguiar-6a893b32)  
-- Email: yrosaguiar@gmail.com  
-- Location: Florianópolis, Brazil  
-- Date: 2025-06-08  
+- **GitHub:** [yrosaguiar](https://github.com/yrosaguiar)  
+- **LinkedIn:** [Yros Aguiar](https://linkedin.com/in/yros-aguiar-6a893b32)  
+- **Email:** yrosaguiar@gmail.com  
+- **Location:** Florianópolis, Brazil  
+- **Date:** 2025-06-08  
