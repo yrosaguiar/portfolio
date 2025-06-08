@@ -1,0 +1,78 @@
+
+resource "yros_curriculum_vitae" "main" {
+  full_name    = "Yros Aguiar"
+  location     = "Florianópolis, Brazil"
+  email        = "yrosaguiar@gmail.com"
+  github       = "https://github.com/yrosaguiar"
+  linkedin     = "https://linkedin.com/in/yros-aguiar-6a893b32"
+  summary      = <<EOT
+IT professional with over 18 years of experience, including 9 years in SRE/DevOps
+and 11 years in cloud applications. Specialized in AWS, Kubernetes, Terraform,
+Observability, and CI/CD. Experienced with Azure, GCP, and OCI. Passionate about
+cloud-native architecture, automation, GitOps, and performance optimization.
+EOT
+
+  experience {
+    title   = "Staff SRE"
+    company = "Collegia"
+    period  = "Sep 2024 – Feb 2025"
+    impact  = "Migrated infrastructure to GCP, improved deployment speed and system resilience."
+  }
+
+  experience {
+    title   = "Sr DevOps/SRE"
+    company = "TotalPass Brasil"
+    period  = "Apr 2024 – Sep 2024"
+    impact  = "Streamlined CI/CD and improved service availability during business growth."
+  }
+
+  experience {
+    title   = "Sr DevOps Engineer"
+    company = "Lumenalta"
+    period  = "Nov 2022 – Dec 2023"
+    impact  = "Supported distributed teams and improved reliability through automation."
+  }
+
+  education {
+    degree      = "Bachelor's in Information Systems"
+    institution = "Universidade Anhanguera"
+    year        = 2011
+  }
+
+  certifications = [
+    "AWS Certified Solutions Architect – Associate (2023)",
+    "Terraform Associate (2020)",
+    "CKA + CKAD (2020)",
+    "ArgoCD Fundamentals (2022)",
+    "Datadog (2024)",
+    "New Relic (2024)",
+    "Certified AppSec Practitioner (2024)"
+  ]
+
+  soft_skills = [
+    "Strategic thinking",
+    "Effective communication",
+    "Team mentorship",
+    "Problem-solving",
+    "Adaptability",
+    "Customer focus"
+  ]
+
+  skills {
+    cloud       = ["AWS", "GCP", "Azure", "OCI"]
+    kubernetes  = ["AKS", "GKE", "EKS", "Rancher", "Helm", "ArgoCD", "Crossplane"]
+    iac         = ["Terraform", "Atlantis", "GitHub Actions", "Jenkins"]
+    monitoring  = ["Datadog", "New Relic", "Prometheus", "Grafana"]
+    security    = ["AppSec", "External Secrets", "IAM", "Disaster Recovery"]
+    networking  = ["Cloudflare", "WAF", "VPN", "IDS/IPS"]
+    languages   = ["Golang", "Shell", "Linux", "Docker"]
+  }
+
+  publications = [
+    "Configuring NAT on Cisco IOS",
+    "Setting up DHCP Server on Linux",
+    "Squid Authentication with AD Groups",
+    "On-Prem to Cloud Migration",
+    "Shell Redirection Techniques"
+  ]
+}
