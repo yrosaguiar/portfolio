@@ -103,20 +103,23 @@ spec:
       highlights:
         - Data center, AD, VMware, HP-UX.
 
-  education:
-    - Bachelor's in Information Systems - Universidade Anhanguera (2011)
-
-  certifications:
-    - AWS Certified Solutions Architect – Associate (2023)
-    - HashiCorp Terraform Associate (2020)
-    - CKA + CKAD (CNCF, 2020)
-    - ArgoCD - GitOps Fundamentals (2022)
-    - Datadog (2024)
-    - New Relic Full Stack & Foundations (2024)
-    - Certified AppSec Practitioner (2024)
-    - CCNP Routing & Switching (NETTS)
-    - EF SET B2 - English
-    - ITIL, CCNA, DBCEX
+  educationCertifications:
+  - type: edu
+    value: Bachelor's in Information Systems (2011)
+  - type: cert
+    value: AWS Solutions Architect Associate (2023)
+  - type: cert
+    value: HashiCorp Terraform Associate (2020)
+  - type: cert
+    value: CKA + CKAD (CNCF, 2020)
+  - type: cert
+    value: ArgoCD - GitOps Fundamentals (2022)
+  - type: cert
+    value: Datadog / New Relic Certified (2024)
+  - type: cert
+    value: Certified AppSec Practitioner (2024)
+  - type: cert
+    value: CCNP, ITIL, CCNA, EFSET B2
 
   publications:
     - Resolving intermittent timeouts in ISO-8583 transactions with TCP and buffer tweaks in Python
