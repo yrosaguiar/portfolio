@@ -128,7 +128,33 @@ IT professional with 18+ years of experience, including 9 years in SRE/DevOps an
 
 ## 📚 Publications
 
-> *Lista completa já está formatada com os links no HTML original (confirma se quer em Markdown também com todos os links).*
+- [docs(pub): Timeouts ISO-8583 with Python (2025)](https://dev.to/yros_aguiar_e4a99aaab452d/como-minizamos-timeouts-intermitentes-em-transacoes-iso-8583-com-ajustes-em-tcp-e-buffers-no-python-k0f)
+- [docs(pub): GitOps on Oracle Cloud (2025)](https://dev.to/yros_aguiar_e4a99aaab452d/de-3-meses-para-20-minutos-gitops-multi-cluster-com-oracle-apex-e-kubernetes-na-oracle-cloud-7g3)
+- [docs(pub): Azure to GKE migration (2025)](https://dev.to/yros_aguiar_e4a99aaab452d/como-migrei-azure-functions-e-container-apps-para-kubernetes-gke-usando-gitops-pdd)
+- [docs(pub): DevEx in Platform Engineering (2024)](https://medium.com/devops-for-zombies/import%C3%A2ncia-da-experi%C3%AAncia-do-desenvolvedor-na-engenharia-de-plataforma-5fb932aac371)
+- [docs(pub): GitOps e Crossplane com Yros (2023) - Kubicast](https://www.youtube.com/watch?v=Zikulq1vrbQ&t=2s)
+- [docs(pub): SRE, Segurança e DevOps no Pipefy - Hipsters On The Road (2020)](https://podcasts.apple.com/no/podcast/sre-seguran%C3%A7a-e-devops-no-pipefy-hipsters-on-the-road-25/id1133325943?i=1000464186595)
+- [docs(pub): From Zero to GitOps (2020)](https://medium.com/devops-for-zombies/from-zero-to-the-gitops-part-1-59b88124de46)
+- [docs(pub): From Zero to GitOps DevopsDaysSP (2020)](https://www.slideshare.net/slideshow/do-zero-ao-gitops-devopsdayssp/239443225)
+- [docs(pub): Understanding K8s Autoscale (2020)](https://medium.com/devops-for-zombies/understanding-k8s-autoscale-f8f3f90938f4)
+- [docs(pub): 10 steps for CKA (2020)](https://medium.com/devops-for-zombies/10-steps-to-achieve-the-cka-certification-6f2ad57887ab)
+- [docs(pub): AWS VPC Peering (2020)](https://medium.com/devops-for-zombies/aws-vpc-peering-for-dummies-ab93c3eb2cb2)
+- [docs(pub): CI/CD Automating Application Delivery (2018)](https://www.slideshare.net/slideshow/cicd-automatizando-a-entrega-da-sua-aplicao/92785454)
+- [docs(pub): Vagrant/Virtual Box and Chef Solo (2014)](https://www.slideshare.net/slideshow/dev-ninja-vagrant-virtualbox-chefsolo-git-ec2-35689111/35689111)
+- [docs(pub): OpenAM SSO (2014)](https://www.slideshare.net/slideshow/openam-fast-sso/424534586)
+- [docs(pub): On-Prem to Cloud Migration (2016)](https://www.slideshare.net/slideshow/whitepaper-yros-o2cv10/62868366)
+- [docs(pub): AWS Technologies and Benefits - Slides (2014)](https://www.slideshare.net/slideshow/amazon-aws-tecnologias-e-beneficios/32279768)
+- [docs(pub): AWS Technologies and Benefits - Video PHPSP (2014)](https://www.youtube.com/watch?v=Mey_hUKNpQY&t=2s)
+- [docs(pub): Introduction to DevOps and Infrastructure as Code (2014)](https://www.vivaolinux.com.br/artigo/Introducao-ao-DevOps-Infraestrutura-como-codigo/#google_vignette)
+- [docs(pub): Squid with Authentication and ACLs from Active Directory Groups (2011)](https://www.vivaolinux.com.br/artigo/Squid-com-autenticacao-e-ACLs-apartir-do-grupos-do-Active-Diretory/)
+- [docs(pub): Bandwidth Control with Slackware, CBQ, Iptables, and DHCP (2010)](https://www.vivaolinux.com.br/artigo/Controle-de-banda-com-Slackware-10-+-CBQ-+-Iptables-+-DHCP/)
+- [docs(pub): Drafting a Security Policy for Companies (2010)](https://www.vivaolinux.com.br/artigo/Elaborando-uma-politica-de-seguranca-para-a-empresa/)
+- [docs(pub): How to Manage Disk Quotas (2005)](https://www.vivaolinux.com.br/artigo/Como-gerenciar-cotas-de-disco/)
+- [docs(pub): Using NMAP (2011)](https://www.vivaolinux.com.br/dica/Utilizando-o-NMAP/)
+- [docs(pub): Configuring RIP v2 on CISCO Routers (2010)](https://www.vivaolinux.com.br/dica/Configurando-RIP-v2-em-roteadores-CISCO/)
+- [docs(pub): Shell Redirection (2010)](https://www.vivaolinux.com.br/dica/Redirecionamento-no-Shell/)
+- [docs(pub): Converting OGV Video to FLV (2010)](https://www.vivaolinux.com.br/dica/Convertendo-arquivo-de-video-ogv-para-flv/)
+
 
 ---
 
