@@ -8,7 +8,7 @@ IT professional with 18+ years of experience, including 10+ years in SRE/DevOps 
 
 ## ✅ Release Log
 
-### **Epic(exp): Tech Lead SRE at ReclameAqui (Feb 2025 – Present)**
+### **Epic(exp): Tech Lead SRE at ReclameAqui (Feb 2026 – Present)**
 
 - **feat/finops-governance:** Led SRE initiatives focused on FinOps, cloud cost visibility, and infrastructure efficiency.
 - **feat/toil-reduction:** Reduced operational toil through automation, platform improvements, and clearer reliability practices.
