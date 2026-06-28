@@ -5,9 +5,9 @@ resource "yros_resume" "main" {
   date     = "2025-06-08"
 
   summary = <<EOT
-IT professional with 18+ years of experience, including 9 years in SRE/DevOps and 11 years working with cloud applications.
-Specialized in AWS, Kubernetes, Terraform, Observability and CI/CD. Experienced with Azure, GCP, and OCI.
-Passionate about cloud-native architectures, automation, GitOps, and performance optimization.
+IT professional with 18+ years of experience, including 10+ years in SRE/DevOps and 11+ years working with cloud applications.
+Specialized in AWS, Kubernetes, Terraform, Crossplane, Observability and CI/CD. Experienced with Azure, GCP, and OCI.
+Passionate about cloud-native architectures, automation, GitOps, FinOps, reliability engineering, and performance optimization.
 EOT
 
   education = [
@@ -29,9 +29,9 @@ EOT
 
   skills = {
     cloud      = ["AWS", "GCP", "Azure", "OCI"]
-    kubernetes = ["AKS", "EKS", "GKE", "Rancher", "Helm", "ArgoCD"]
-    iac_cicd   = ["Terraform", "Atlantis", "GitHub Actions", "CircleCI"]
-    monitoring = ["Datadog", "New Relic", "Prometheus", "Grafana"]
+    kubernetes = ["AKS", "EKS", "GKE", "Rancher", "Helm", "ArgoCD", "Crossplane"]
+    iac_cicd   = ["Terraform", "Crossplane", "Atlantis", "GitHub Actions", "CircleCI"]
+    monitoring = ["Datadog", "New Relic", "Prometheus", "Grafana", "Coroot"]
     security   = ["AppSec", "IAM", "External Secrets", "VPN"]
     languages  = ["Golang", "Python", "Shell"]
     os         = ["Linux", "Windows"]
@@ -53,6 +53,21 @@ EOT
   }
 
   experience = [
+    {
+      title    = "Tech Lead SRE at ReclameAqui"
+      period   = "Feb 2025 – Present"
+      entries  = [
+        "Led SRE initiatives focused on FinOps, cloud cost visibility, and infrastructure efficiency.",
+        "Reduced operational toil through automation, platform improvements, and clearer reliability practices.",
+        "Used Crossplane to improve cloud-native infrastructure provisioning and platform self-service.",
+        "Implemented SLOs and reliability practices across services and engineering teams.",
+        "Improved APM and production visibility using Coroot.",
+        "Worked closely with Engineering, Development, and Security teams to strengthen cloud-native operations.",
+        "Supported smoke test pipelines and preview environments to improve deployment confidence.",
+        "Supported incident response, postmortems, and reliability improvements.",
+        "Contributed to SRE Agent initiatives to increase operational intelligence and reduce manual effort."
+      ]
+    },
     {
       title    = "Staff SRE at Collegia"
       period   = "Sep 2024 – Feb 2025"

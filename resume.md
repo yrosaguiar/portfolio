@@ -2,11 +2,32 @@
 
 ## ✨ Summary
 
-IT professional with 18+ years of experience, including 9 years in SRE/DevOps and 11 years working with cloud applications. Specialized in AWS, Kubernetes, Terraform, Observability and CI/CD. Experienced with Azure, GCP, and OCI. Passionate about cloud-native architectures, automation, GitOps, and performance optimization. Based in Florianópolis, Brazil.
+IT professional with 18+ years of experience, including 10+ years in SRE/DevOps and 11+ years working with cloud applications. Specialized in AWS, Kubernetes, Terraform, Crossplane, Observability and CI/CD. Experienced with Azure, GCP, and OCI. Passionate about cloud-native architectures, automation, GitOps, FinOps, reliability engineering, and performance optimization. Based in Florianópolis, Brazil.
 
 ---
 
 ## ✅ Release Log
+
+### **Epic(exp): Tech Lead SRE at ReclameAqui (Feb 2025 – Present)**
+
+- **feat/finops-governance:** Led SRE initiatives focused on FinOps, cloud cost visibility, and infrastructure efficiency.
+- **feat/toil-reduction:** Reduced operational toil through automation, platform improvements, and clearer reliability practices.
+- **feat/crossplane-platform:** Used Crossplane to improve cloud-native infrastructure provisioning and platform self-service.
+- **feat/slo-implementation:** Implemented SLOs and reliability practices across services and engineering teams.
+- **feat/coroot-apm:** Improved APM and production visibility using Coroot.
+- **feat/engineering-collaboration:** Worked closely with Engineering, Development, and Security teams to strengthen cloud-native operations.
+- **feat/delivery-safety:** Supported smoke test pipelines and preview environments to improve deployment confidence.
+- **feat/incident-management:** Supported incident response, postmortems, and reliability improvements.
+- **feat/sre-agent:** Contributed to SRE Agent initiatives to increase operational intelligence and reduce manual effort.
+
+**Impact:**
+- 💰 Better cloud cost awareness and FinOps practices
+- ⚙️ Lower operational toil through automation and platform improvements
+- 🎯 Stronger reliability management with SLOs
+- 🔍 Improved APM and service visibility with Coroot
+- 🚀 Safer delivery through smoke tests and preview environments
+
+---
 
 ### **Epic(exp): Staff SRE at Collegia (Sep 2024 – Feb 2025)**
 
@@ -161,9 +182,9 @@ IT professional with 18+ years of experience, including 9 years in SRE/DevOps an
 ## 🧠 Hard Skills
 
 - **Cloud:** AWS, GCP, Azure, OCI  
-- **Kubernetes:** AKS, EKS, GKE, OKE, Kops, Helm, ArgoCD  
-- **IaC:** Terraform, CI/CD, GitHub Actions, GitLab, ArgoCD, Jenkins  
-- **Monitoring:** Datadog, Prometheus, Grafana, New Relic  
+- **Kubernetes:** AKS, EKS, GKE, OKE, Kops, Helm, ArgoCD, Crossplane  
+- **IaC:** Terraform, Crossplane, CI/CD, GitHub Actions, GitLab, ArgoCD, Jenkins  
+- **Monitoring:** Datadog, Prometheus, Grafana, New Relic, Coroot  
 - **Security:** AppSec, VPN, IAM, Firewalls L4/L7  
 - **Languages:** Golang, Python, Shell  
 
